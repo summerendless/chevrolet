@@ -1,0 +1,71 @@
+@charset "utf-8"
+@import url(reset.css);
+
+#container{width: 1263px; margin: 0 auto;min-height: 1712px;} 
+#main-visual .main-visual-list li strong{position: absolute; width: 120px; height: 40px; background: url(../images/main/main-visual.jpg) 0 0 no-repeat; text-indent: -99999px;}
+#main-visual .main-visual-list li strong.visual-1{right: 115px; top: 155px;}
+#main-visual .main-visual-list li strong.visual-2{left: 186px; top: 190px;}
+#main-visual .main-visual-list li strong.visual-3{left: 94px; top: 155px;}
+#main-visual .main-visual-list li strong.visual-4{left: 170px; top: 170px;}
+#main-visual .main-visual-list li strong:hover,
+#main-visual .main-visual-list li strong:focus{width: 120px; height: 40px; background: url(../images/main/main-visual-on.jpg) 0 0 no-repeat;}
+#main-visual .bx-wrapper .bx-controls-direction a{width: 0; height: 0;}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{text-align: center; bottom: 27px;z-index: 30;width: 100%;}
+.bx-wrapper .bx-pager.bx-default-pager a{width: 13px; height: 13px;background: url(../images/main/Ellipse-1-1.png) 0 0 no-repeat;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.bx-wrapper .bx-pager.bx-default-pager a.active, 
+.bx-wrapper .bx-pager.bx-default-pager a:focus{background: url(../images/main/Ellipse-1-1.png) 0 0 no-repeat;}
+.bx-wrapper .bx-pager.bx-default-pager a.active{background-color: #fff;}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{right: 671px; bottom: 27px; z-index: 40;}
+.bx-wrapper .bx-controls-auto .bx-stop{width: 10px;height: 13px; background:url(../images/main/btn-main-visual-3.jpg) 0 bottom no-repeat;}
+.bx-wrapper .bx-controls-auto .bx-start{width: 10px;height: 13px; background:url(../images/main/btn-main-visual-3.jpg) 0 top no-repeat;}
+.bx-wrapper .bx-controls-auto .bx-start:hover, 
+.bx-wrapper .bx-controls-auto .bx-start:focus{background-position: 0 top;}
+.bx-wrapper .bx-controls-auto .bx-stop:hover,  
+.bx-wrapper .bx-controls-auto .bx-stop:focus{background-position: 0 bottom; }
+.bx-wrapper{margin: 0 auto; border: none; -webkit-box-shadow: none; box-shadow:none;}
+
+.main-content-1{position: relative; top: 72px; margin-bottom: 80px; height: 450px; width: 1120px; margin: 0 auto;}
+.main-content-1 label{width: 279px; height: 58px; display: block; font-size: 13px; line-height: 58px; border: 1px solid #fff; background-color: #E1E1E1; color: #000;}
+.main-radio-wrap-1{position: absolute; left: 0px;}
+.main-radio-wrap-1 input:checked+label{background-color: #494949; color: #fff;}
+.main-radio-wrap-1 .bx-wrapper{height: 0;}
+.main-radio-wrap-1 input:checked+label+.a .bx-wrapper{height: 220px;z-index: 5;}
+.main-radio-wrap-1 > input + label{position: absolute; left: 0px; top: -72px; }
+#tab-btn-2 + label{left: 279px;}
+#tab-btn-3 + label{left: 558px;}
+#tab-btn-4 + label{left: 837px;} 
+.main-radio-wrap-1 .bx-wrapper .bx-prev, .main-radio-wrap-1 .bx-wrapper .bx-next{height: 0;}
+.main-radio-wrap-1 input:checked+label+.a .bx-wrapper .bx-prev, .main-radio-wrap-1 input:checked+label+.a .bx-wrapper .bx-next{height: 57px;}
+.main-radio-wrap-1 .bx-wrapper .bx-prev{left: -75px; background: url(../images/main/prev-btn-1.jpg) no-repeat 0 0px; }
+.main-radio-wrap-1 .bx-wrapper .bx-next{right: -75px; background: url(../images/main/next-btn-1.jpg) no-repeat 0 0px; }
+
+.main-content-2{position: relative; top: -95px;}
+.main-content-2 > h3{font-weight: bold; font-size: 25px; }
+.main-content-2 > h3:before{content:""; display: inline-block; width: 100px ; height: 1px; background: url(../images/main/main-bg-var.jpg) 0 0 no-repeat;vertical-align: middle; padding-right: 30px;}
+.main-content-2 > h3:after{content:""; display: inline-block; width: 100px; height: 1px; background: url(../images/main/main-bg-var.jpg) 0 0 no-repeat;vertical-align: middle; margin-left: 30px;}
+.main-content-2 > .txt-1{min-height: 294px; position: absolute; left: 71px; top: 75px;}
+.main-content-2 > ul > li {width: 330px; height: 290px; float: left; margin-right: 63px; border: 5px solid #F8F8F6; border-bottom: 5px solid #FFCC33;}
+.main-content-2 > ul > li:first-child{background: url(../images/main/mycar-1.jpg) 0 0 no-repeat;}
+.main-content-2 > ul > li:first-child + li{background: url(../images/main/mycar-2.jpg) 0 0 no-repeat;}
+.main-content-2 > ul > li:first-child + li + li{background: url(../images/main/mycar-3.jpg) 0 0 no-repeat;}
+.main-content-2 > ul > li a{width: 330px; height: 290px; display: block; text-indent: -9999px;}
+.main-content-2 > ul > li:hover,
+.main-content-2 > ul > li:focus{border: 5px solid #FFCC33;}
+.main-content-3{position: relative; top: 250px; margin-bottom: 55px;}
+.main-content-3 > h3{font-weight: bold; font-size: 25px; margin-bottom: 43px; margin-top: 33px;}
+.main-content-3 > h3:before{content:""; display: inline-block; width: 100px ; height: 1px; background: url(../images/main/main-bg-var.jpg) 0 0 no-repeat;vertical-align: middle; padding-right: 30px;}
+.main-content-3 > h3:after{content:""; display: inline-block; width: 100px; height: 1px; background: url(../images/main/main-bg-var.jpg) 0 0 no-repeat;vertical-align: middle; margin-left: 30px;}
+.main-content-3 .service{overflow: hidden; position: absolute; left: 71px;}
+.main-content-3 .service li{width: 280px; height: 298px; float: left; border: 1px solid #ccc; }
+.main-content-3 .service li h3{font-size: 18px; font-weight: bold; padding: 58px 0 30px 0;}
+.main-content-3 .service li p{padding-top: 115px; font-size: 13px; font-weight: bold; color: #494949;}
+.main-content-3 .service li.s-1{background: url(../images/main/service-1.jpg) 0 0 no-repeat;}
+.main-content-3 .service li.s-2{background: url(../images/main/service-2.jpg) 0 0 no-repeat;}
+.main-content-3 .service li.s-3{background: url(../images/main/service-3.jpg) 0 0 no-repeat;}
+.main-content-3 .service li.s-4{background: url(../images/main/service-4.jpg) 0 0 no-repeat;}
+.main-content-3 .service li:hover h3,.main-content-3 .service li:hover p,.main-content-3 .service li:focus h3,.main-content-3 .service li:focus p{color: #DFDFDF;}
+.main-content-3 .service li.s-1:hover,.main-content-3 .service li.s-1:focus{background: url(../images/main/service-1-on.jpg) 0 0 no-repeat;}
+.main-content-3 .service li.s-2:hover,.main-content-3 .service li.s-2:focus{background: url(../images/main/service-2-on.jpg) 0 0 no-repeat;}
+.main-content-3 .service li.s-3:hover,.main-content-3 .service li.s-3:focus{background: url(../images/main/service-3-on.jpg) 0 0 no-repeat;}
+.main-content-3 .service li.s-4:hover,.main-content-3 .service li.s-4:focus{background: url(../images/main/service-4-on.jpg) 0 0 no-repeat;}
